@@ -56,15 +56,15 @@ class Commandi:
     )
     HELP = get_config(
         "COMMANDI_HELP",
-        "help"
+        "help@DamienUserBot"
     )
     SAVETHUMBNAIL = get_config(
         "COMMANDI_SAVETHUMBNAIL",
-        "savethumbnail"
+        "save@DamienUserBot"
     )
     CLEARTHUMBNAIL = get_config(
         "COMMANDI_CLEARTHUMBNAIL",
-        "clearthumbnail"
+        "clear@DamienUserBot"
     )
     GET_RCLONE_CONF_URI = get_config(
         "COMMANDI_GET_RCLONE_CONF_URI",
