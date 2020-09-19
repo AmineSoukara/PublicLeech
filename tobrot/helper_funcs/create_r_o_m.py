@@ -29,21 +29,21 @@ async def get_markup(message: Message):
     inline_keyboard = []
     ikeyboard = []
     ikeyboard.append(InlineKeyboardButton(
-        "leech 🤔🤔",
+        "🔵 Download 🔵",
         callback_data=("leech").encode("UTF-8")
     ))
     ikeyboard.append(InlineKeyboardButton(
-        "youtube-dl",
+        "🔴 Youtube-Dl 🔴",
         callback_data=("ytdl").encode("UTF-8")
     ))
     inline_keyboard.append(ikeyboard)
     ikeyboard = []
     ikeyboard.append(InlineKeyboardButton(
-        "A leech TAR . GZ  🤔🤔",
+        "DL TAR.GZ",
         callback_data=("leecha").encode("UTF-8")
     ))
     ikeyboard.append(InlineKeyboardButton(
-        "A youtube-dl TAR . GZ",
+        "YT-Dl TAR.GZ",
         callback_data=("ytdla").encode("UTF-8")
     ))
     inline_keyboard.append(ikeyboard)
