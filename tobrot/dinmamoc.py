@@ -20,7 +20,7 @@ from tobrot.get_cfg import get_config
 class Commandi:
     LEECH = get_config(
         "COMMANDI_LEECH",
-        "leech"
+        "Dl@DamienUserBot"
     )
     PURGE = get_config(
         "COMMANDI_PURGE",
@@ -28,7 +28,7 @@ class Commandi:
     )
     YTDL = get_config(
         "COMMANDI_YTDL",
-        "ytdl"
+        "ytdl@DamienUserBot"
     )
     STATUS = get_config(
         "COMMANDI_STATUS",
